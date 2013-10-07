@@ -22,6 +22,14 @@ ActiveRecord::Schema.define(version: 20131007035319) do
     t.datetime "updated_at"
   end
 
+  create_table "showings", force: true do |t|
+    t.integer  "movie_id"
+    t.string   "location"
+    t.datetime "time"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "showtimes", force: true do |t|
     t.string   "location"
     t.string   "time"
