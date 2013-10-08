@@ -23,6 +23,33 @@ table.movies {
   }
 }
 
+#cast, #movies {
+  img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  a {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+  }
+
+  span.character {
+    font-weight: bold;
+  }
+
+  li:nth-child(odd) {
+    background-color: #D3D3D3;
+  }
+
+  ul {
+    list-style-type: none;
+    background-color: white;
+    max-width: 400px;
+  }
+}
+
 #showtimes {
   @include grid-row;
   margin-top: 20px;
