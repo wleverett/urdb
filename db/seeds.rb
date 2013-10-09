@@ -6,19 +6,26 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-days_of_summer = Movie.create({
-    title: "(500) Days of Summer",
-    poster_url: "http://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Five_hundred_days_of_summer.jpg/220px-Five_hundred_days_of_summer.jpg",
-    trailer_url: "http://youtu.be/PsD0NpFSADM",
-    description: "An offbeat romantic comedy about a woman who doesn't believe true love exists, and the young man who falls for her."
-  })
+hackers = Movie.create(
+  title: "Hackers",
+  poster_url: "http://www.movieposter.com/posters/archive/main/79/MPW-39928",
+  trailer_url: "http://youtu.be/pP6iTjhlOvs",
+  description: "A young boy is arrested by the US Secret Service for writing a computer virus and is banned from using a computer until his 18th birthday. Years later, he and his new-found friends discover a plot to unleash a dangerous computer virus, but they must use their computer skills to find the evidence while being pursued by the Secret Service and the evil computer genius behind the virus."
+)
+
+days_of_summer = Movie.create(
+  title: "(500) Days of Summer",
+  poster_url: "http://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Five_hundred_days_of_summer.jpg/220px-Five_hundred_days_of_summer.jpg",
+  trailer_url: "http://youtu.be/PsD0NpFSADM",
+  description: "An offbeat romantic comedy about a woman who doesn't believe true love exists, and the young man who falls for her."
+)
 
 yes_man = Movie.create({
-    title: "Yes Man",
-    poster_url: "http://upload.wikimedia.org/wikipedia/en/thumb/7/71/YesMan2008poster.jpg/220px-YesMan2008poster.jpg",
-    trailer_url: "http://youtu.be/rvpsiIe2vBE",
-    description: "A guy challenges himself to say 'yes' to everything for an entire year."
-  })
+  title: "Yes Man",
+  poster_url: "http://upload.wikimedia.org/wikipedia/en/thumb/7/71/YesMan2008poster.jpg/220px-YesMan2008poster.jpg",
+  trailer_url: "http://youtu.be/rvpsiIe2vBE",
+  description: "A guy challenges himself to say 'yes' to everything for an entire year."
+)
 
 jim_carrey = Star.create(name: 'Jim Carrey',
                       headshot_url: 'http://ia.media-imdb.com/images/M/MV5BMTQwMjAwNzI0M15BMl5BanBnXkFtZTcwOTY1MTMyOQ@@._V1_SY317_CR22,0,214,317_.jpg',
