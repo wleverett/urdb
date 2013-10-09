@@ -20,7 +20,7 @@ days_of_summer = Movie.create(
   description: "An offbeat romantic comedy about a woman who doesn't believe true love exists, and the young man who falls for her."
 )
 
-yes_man = Movie.create({
+yes_man = Movie.create(
   title: "Yes Man",
   poster_url: "http://upload.wikimedia.org/wikipedia/en/thumb/7/71/YesMan2008poster.jpg/220px-YesMan2008poster.jpg",
   trailer_url: "http://youtu.be/rvpsiIe2vBE",
